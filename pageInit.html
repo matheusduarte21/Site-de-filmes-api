@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/pageInit.css">
+  
+    <title>MOVIE</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="inputs">
+                <div class="image">
+                    <img src="./images/blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.svg">
+                </div>
+                <span class="span">Email:</span>
+                <input type="email" placeholder="Digite o seu email" id="Email" class="required" oninput="emaill()"/>
+                <span class="span_disable">Esté email não é válido</span>
+                
+                <span class="span">Senha:</span>
+                <input type="password" id="Password" placeholder="Digite a sua senha" class="required" oninput="ppassword()">
+                <span class="span_disable_password">Senha incorreta</span>
+                <button id="button">Entrar</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/init.js"></script>
+</body>
+</html>

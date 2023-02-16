@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lexend+Deca:wght@300;400;500;600;700&family=Lexend:wght@300;400;500;600;700&family=Montserrat:wght@300;400;600;700&family=Open+Sans:ital@0;1&family=Oswald:wght@200;300;400;500;600&family=Press+Start+2P&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg2);
+    font-family:'roboto', sans-serif, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+}
+
+:root{
+    --bg1:#000;
+    --bg3:#292525;
+    --bg2:#181818;
+    --color1:#ff0008;
+    --color2:#fff;
+    --Color3:#000;
+    --color:#6a6969;
+    --primarycolor:#0d253f;
+    --secondarycolor:#01b4e4;
+    --tertiarycolor: #90cea1;
+}
+
+.container{
+    width: 310px;
+    height: 520px;
+    background-color: var(--bg1);
+    border-radius: 20px;
+    border: 2px solid var(--primarycolor);
+    box-shadow: rgba(84, 88, 92, 0.2) 0px 8px 24px;
+}
+
+.container h1{
+    font-size: 1.7rem;
+    margin-bottom: 70px;
+    font-weight:900;
+    color: var(--color2);
+    cursor: pointer;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.span{
+ color: var(--color2);
+ font-weight: 500;
+ font-size: 17px;
+ margin-bottom: .6rem;
+}
+
+.title_span{
+    color: var(--color2);
+}
+
+.span_disable{
+    font-size: 15px;
+    margin-right: 0px;
+    margin-top: 6px;
+    position: absolute;
+    display: none;
+    color: var(--color1);
+}
+
+.span_disable_password{
+    color: var(--color1);
+    position: absolute;
+    margin-top: 211px;
+    display: none;
+    font-size: 15px;
+}
+
+
+input{
+    height: 44px;
+    width: 230px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+    color: var(--color2);
+    background-color: #0f0f0f;
+    outline: 0;
+}
+
+input::placeholder{
+    color:var(--color2);
+}
+
+button{
+    height: 44px;
+    width: 230px;
+    color: var(--color2);
+    background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top:20px;
+    box-shadow: rgba(47, 46, 46, 0.24) 0px 3px 8px;
+}
+
+button:hover{
+    background-color: var(--secondarycolor);
+}
+
+input:focus{
+    border: 3px solid var(--secondarycolor);
+}
+
+.image{
+    width: 140px;
+    margin-bottom: 40px;
+}
