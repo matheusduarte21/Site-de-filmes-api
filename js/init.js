@@ -1,4 +1,4 @@
-const senha = '123'
+const senha = ''
 const Regex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/
 const email = document.querySelector('#Email')
 const password = document.querySelector('#Password')

@@ -123,3 +123,7 @@ input:focus{
     width: 140px;
     margin-bottom: 40px;
 }
+.password-min{
+    font-size: 12px;
+    color: #ff0008;
+}
